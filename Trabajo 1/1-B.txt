@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args){
+        int numeroInicial=10;
+        int numeroFinal=24;
+        while (numeroInicial<=numeroFinal) {
+            if (numeroInicial % 2 == 0) {
+                System.out.println(numeroInicial);
+            }
+            numeroInicial++;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        int numeroInicial=10;
+        int numeroFinal=24;
+        boolean retry= true;
+        while (retry) {
+            System.out.flush();
+            System.out.println("que desea listar: \n a)Pares \n b)Impares");
+            String decision= sc.nextLine();
+            switch (decision) {
+                case "a":
+                    while (numeroInicial <= numeroFinal) {
+                        if (numeroInicial % 2 == 0) {
+                            System.out.println(numeroInicial);
+                        }
+                        numeroInicial++;
+                    }
+                    retry=false ;
+                    break;
+                case "b":
+                    while (numeroInicial <= numeroFinal) {
+                        if (numeroInicial % 2 == 1) {
+                            System.out.println(numeroInicial);
+                        }
+                        numeroInicial++;
+                    }
+                    retry=false ;
+                    break;
+                default:
+                    System.out.println("Opción no válida, intente nuevamente");
+            }
+        }
+    }
+}

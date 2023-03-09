@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args){
+        /*pueden cambiar estas variables para ir probando*/
+        double ingresos = 489.083;
+        int cantDeVehiculos = 5;
+        int cantDeInmuebles = 5;
+    /*Poseer una embarcación, una aeronave de lujo o ser titular de activos
+    societarios que demuestren capacidad económica plena*/
+        boolean posecionDeLujo= false;
+        /*********************************************/
+        if ( (ingresos >=  489.083) || ( cantDeInmuebles >= 3) || (cantDeVehiculos >= 3) || (posecionDeLujo) ) {
+            System.out.println("Pertenece al sector de ingresos altos");
+        } else if( (ingresos <= 489.083) || ( cantDeInmuebles <= 3) || (cantDeVehiculos <= 3)|| (posecionDeLujo)  ) {
+            System.out.println("Pertenece al sector de ingresos altos");
+
+        }
+    }
+}
