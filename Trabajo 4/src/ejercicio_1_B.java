@@ -2,14 +2,6 @@ import java.util.*;
 
 public class ejercicio_1_B {
     public static void main(String[] args) {
-    //args : num1 num2 numx letra(a o b)
-        if (args.length >= 3) {
-            int[] numeros = new int[args.length - 1];
-            for (int i = 0; i < args.length - 1; i++) {
-                numeros[i] = Integer.parseInt(args[i]);
-            }
-            fn(numeros, args[args.length - 1]);
-        } else {
             Scanner sc = new Scanner(System.in);
             System.out.println("Cuantos números quiere introducir:");
             int largo = Integer.parseInt(sc.nextLine());
@@ -23,7 +15,6 @@ public class ejercicio_1_B {
             fn(numeros, respuesta);
 
         }
-    }
 
 
     private static void fn(int[] num, String letra) {
