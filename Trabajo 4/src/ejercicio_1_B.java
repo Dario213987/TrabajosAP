@@ -2,7 +2,7 @@ import java.util.*;
 
 public class ejercicio_1_B {
     public static void main(String[] args) {
-
+    //args : num1 num2 numx letra(a o b)
         if (args.length >= 3) {
             int[] numeros = new int[args.length - 1];
             for (int i = 0; i < args.length - 1; i++) {

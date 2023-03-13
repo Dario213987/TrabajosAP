@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Objects;
-public class cifradoCesar2 {
+public class ejercicio_3 {
     public static void main(String[] args) throws IOException {
         // args ruta_input ruta_output movimiento codODecod(c o d)
         int i =0;
